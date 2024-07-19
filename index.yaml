@@ -3,12 +3,12 @@ entries:
   postgresql:
   - apiVersion: v2
     appVersion: 1.19.0
-    created: "2024-07-19T11:04:46.345782024-03:00"
+    created: "2024-07-19T11:15:16.677767662-03:00"
     description: A Helm chart for Kubernetes
-    digest: f58d9e542adcd1c479b60840252085546c75b701fee838440a4fecbd59bf2799
+    digest: 8e8bb6ad435b64a1912a82afa07939df2c5c8a914b7572bcb50db7a8d633ea9e
     name: postgresql
     type: application
     urls:
     - postgresql-0.1.0.tgz
     version: 0.1.0
-generated: "2024-07-19T11:04:46.345325743-03:00"
+generated: "2024-07-19T11:15:16.677308274-03:00"
