@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>postgresql Helm Chart</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Roboto", sans-serif;
+        background-color: #f7f9fc;
+        color: #333;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: #2c3e50;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+      header h1 {
+        margin: 0;
+        font-size: 2.5em;
+      }
+      .container {
+        width: 90%;
+        max-width: 1200px;
+        margin: 40px auto;
+        padding: 20px;
+        background-color: white;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+      }
+      h2 {
+        color: #2c3e50;
+        border-bottom: 2px solid #ecf0f1;
+        padding-bottom: 10px;
+      }
+      .description {
+        font-size: 1.1em;
+        line-height: 1.8;
+      }
+      pre {
+        background-color: #ecf0f1;
+        padding: 15px;
+        border-radius: 5px;
+        overflow-x: auto;
+      }
+      code {
+        font-family: "Roboto Mono", monospace;
+      }
+      footer {
+        text-align: center;
+        padding: 20px;
+        background-color: #ecf0f1;
+        margin-top: 40px;
+      }
+      .footer-link {
+        color: #3498db;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      .footer-link:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>PostgreSQL Helm Chart</h1>
+    </header>
+    <div class="container">
+      <h2>Overview</h2>
+      <p class="description">
+        postgresql is a distributed streaming platform. This Helm chart deploys postgresql into your Kubernetes cluster.
+      </p>
+      <h2>Get Repository Info</h2>
+      <pre><code>helm repo add postgresql https://leozw.github.io/postgresql/</code></pre>
+      <h2>Install Chart</h2>
+      <pre><code>helm install postgresql postgresql/postgresql -n postgresql --create-namespace</code></pre>
+      <h2>Configuration</h2>
+      <p>Below are the default values for this Helm chart:</p>
+      <pre><code><a  href="https://github.com/leozw/postgresql/blob/main/values.yaml" target="_blank" class="footer-link"
+        >Visit default values ​​on GitHub</a
+      ></code></pre>
+      <h2>Uninstall Chart</h2>
+      <pre><code>helm uninstall [RELEASE_NAME]</code></pre>
+      <h2>Usage</h2>
+      <p>Instructions on how to use the postgresql Helm chart.</p>
+    </div>
+    <footer>
+      <p>&copy; 2024 Leonardo Zwirtes.</p>
+      <p>
+        <a href="https://github.com/leozw" target="_blank" class="footer-link"
+          >Visit my GitHub</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>
